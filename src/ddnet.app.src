@@ -1,0 +1,13 @@
+{application, ddnet,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, [{port, [6000]},
+        {acceptor_num, 10}
+        ]}
+ ]}.
